@@ -29,12 +29,70 @@
           <i class="fa-solid fa-magnifying-glass fa-lg"></i>
         </span>
         <span>
-          <span class="nav__new"></span>
+          <span class="nav__new screen__new"></span>
           <i class="fa-solid fa-gear fa-lg"></i>
         </span>
       </div>
     </header>
 
+    <main class="main-screen">
+      <div class="find-icons">
+        <div class="find-icons__icon">
+          <i class="fa-solid fa-qrcode"></i>
+          <span>QR Code</span>
+        </div>
+        <div class="find-icons__icon">
+          <i class="fa-regular fa-address-book"></i>
+          <span>Add by Contacts</span>
+        </div>
+        <div class="find-icons__icon">
+          <i class="fa-solid fa-fingerprint"></i>
+          <span>Add by ID</span>
+        </div>
+        <div class="find-icons__icon">
+          <i class="fa-regular fa-envelope"></i>
+          <span>Invite</span>
+        </div>
+      </div>
+      <div class="recommended-friends">
+        <h6 class="recommended-friends__title">Recommended Friends</h6>
+        <span>You have no recommended friends.</span>
+      </div>
+      <div class="open-chat">
+        <div class="open-chat__header">
+          <h4>Open Chat</h4>
+          <span
+            >Go to Openchat Home
+            <i class="fa-solid fa-chevron-right fa-xs"></i>
+          </span>
+        </div>
+        <div class="open-post">
+          <div class="open-post-column">
+            <h5 class="open-post__title">#IU</h5>
+            <h6 class="open-post__hashtags">#iu#uaena#star</h6>
+            <div class="open-post__members">
+              <img
+                src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw8PEA8PDw8PDw8PDw8PDw8NDw8PDw8NFRUWFhUVFRUYHSggGBolGxUVITEhJSkrLi4uFx81ODMtNygtLisBCgoKDg0OGhAPGy0gIB4tNysrKy0rLSsrKzgtLi0uLTQrLS03Nys3Ly8rKy0rKzcuKy0xNzc1KzcrLS0tLSsrLf/AABEIAOEA4QMBIgACEQEDEQH/xAAbAAEAAgMBAQAAAAAAAAAAAAAABQYBAgQDB//EAD8QAAIBAgMEBQkFBgcAAAAAAAABAgMRBCExBQYSQSJRcYHRMjNhcpGSscHwEyNCoeFSU2KCssIUFUNzk6LS/8QAGQEBAAMBAQAAAAAAAAAAAAAAAAECAwQF/8QAJREBAAICAQQCAQUAAAAAAAAAAAECAxExBBIhMhNBUSKBobHh/9oADAMBAAIRAxEAPwC2AA9JoAAAAAAAAAAAAAAFjLAwAAAAAAAAAAAAAAAAAAAMGQAAAAAAAAAAAGbGAmBtFGeDM9KWZ0yw8prhp24ucuUf1K2toRuJxNOkuKpJR6lm5PsSzZG/5vKfmsPVmut9GL70mTT2NGMs1xz1cp55nXChFKzTcuS60c+bqqYq7tKNq5LG4hK7wvd9pn/Sa09t072qQqUn1yjePc14E1iaSnkk0081J5HNUwCat0ZrmhXqaTrc6mfqdRJtmnUjJKUWpJ6OLTT7zYha+DqUG6lBv+Km81IkNnY6NePFHJrKcHrGXh4eho6Yn6lLqABIAAAAAAAAAAAAAAAAAAAAAAAABAynYD0lPgV+bajH1n9X7if2PUhCNtXq2+bKZi8Q5YmlSWkYSqPtulb80ycpvhWuZlevchN4qonxNIgOKU56tZ+w6KWL68zMkk1UjmuaX19WPNy2+K94mu5tH6d8T44/z7Q8MbUV0nml5VtE+trqOOpHKXJq7ustD2qPik1GL6WspZRS566nnOXHxcOUL9KX7XoXoMMVaUx2xxHd3a7dxqZnXn9o/hVrJ8STfNZkDj4PDVY14LoyajUiuaeX16eEn5ejJKyXYjl2hQVSnKL5po9mlJjHETzELumEk0mndNJprRp6GSN2BWcqEb6xbi/jbuTS7iSNYncbSAAAAAAAAAAAAAAAAAAAAAAAAAADiw2zq08VOqodBU4xhJtWle17ewnP8DWf4f8AtHxK3jdoSwjvJy+zlJ8DjnbnZ9Qo740ec5+4zmm9olVPzwNdPKjOXqypfORrLCYqzUaFRPrcqNr++RlPe/D/ALyfuS8Dso7zUZaVJ98JL5GGWs5a9t+ETuW0tnY2StOk+F6qDpcT/NHo8HXsksNVSWi4qP8A7Npbcgldyml6UcdXevDx/wBSfuS8CmPFNLd0TMz+Z8/2iImHbDZ1ZrOlKPok4fJmKmzKtmuH84+JE1N76H7yf/HPwOOtvfSelSb/AJJHTGW625dOyMJUoqrCpFxvWqSje3ShfJ5dxIHDs6U6n30m7SiuBPXhed3+R3HRj32+UwAAskAAAAAAAAAAAAAAAAAAAAAAABybVwSxFKdN6tXi3ymtH8u8+a4inOlNwmmnFtNdR9VK/vbsmNam6qXTp5ya1lSWvs17Eyl67RKn0K/1r9czuoYtr2Hrgti05JNufdL9CYw+7VF86nvLwKRisdsoyptGVrX6us4KuIvmWye69G2tT3l4Edit3aS51PeXgPhsntlVqtckN3dmyxNVXX3cbOb9HUu01r7Hi5xhT4nKclFcTTV315acy/bPwUKFONOCyWr5ylzbFcfnyjToirZLJLJJckZANkgAAAAAAAAAAAAAAAAAAAAAAAAAAGGk8nmnk0+aMgCP2XsKWikrJtK6el8vyLNg93Zv8cfYzo2JSTgn6X8Sc+0jTi5SySWZyWz2pvzwjulCvd6f7cPYyM2hsipFW44ZK2aen0ix0NswlKMXCcFLyZStbvtoR28NSyZni6z5Y3S0SjulTsFh2q7k+B8EJJWjpOT19nF7X6SV+1zvZXOLA58cuuVvYv1Oo7Kea7lIwAXSAAAAAAAAAAAAAAAAAAAAAAAAAAAAALFu95t+ib+RJYmg5wcVryXXy+ZG7t+bl67+EScpnn56xabVn7UnlArA1puEXFpRTTk00knlfPXsXP2nhvK8mWmWhUtvyu2cvS9LTp4mK/f5QgsCui/WkdB54fye9/E9D2KesNIAAWAAAAAAAAAAAAAAAAAAAAAAAAAAAAABYN2n0J+v8kT1Mr+7ek/W+SLBTOHL7ypPLeehUNuPORb56FQ27+IpCERhvJXf8Wep54fyV3/FnoehT1hpAACQAAAAAAAAAAAC4AAAAAAAAAAAAAAAAAnt2dJ+svgWGBXN23lU7Y/BlipHDm95UnlvPQqW3V5RbZaFU26splIQhqPkrsNzSl5K7EbnoV4hoAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE1u4/OdsP7ix0itbuvOp/J/cWakcWb3lSeW8tCtbbj0ahZpaFc20uhUM4Qr1PRdiNjWGi7EbHoxw0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAS+7z6VTsj8yz0tCrbv+VP1Y/EtNLQ4s3vKk8vRld255uoWJlc2+/u6hnCFfjouwyED0WgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACU2A+nP1Pmi1UtCqbv+cl/tv8AqiWulocef3Unlmcsit7el91U7UT2InZMr21c6M3/ABGUIQzZhyPKVQ8pVT0dtHTxGOM5vtApEbHRxmeM50bWGx7KZumeEUe0USNgEAAAAAAAAAAAAAAAAAAAAAADowGKdKakknfotPSzaLHX2jVpLOhf1Z+JUZvq1LrPG0KsLxqQd87cSTXatUc3URxKtlc2hvJPO2Hl7yIevtyrJOnKnGEWlLm3mTuNpU8+lH2ogNrQhKUOBqVk0+Hlpb5mOON2RDk+1uZjdm9OgdMKJ26lZ4wpntGmesYG9idJaKBnhNjJI1sZsZAAAAAAAAAAAAAAAAAAAAAAAAAGGjnqUEzpAHEsIuo9oUUj2sZGhoomyRkAAAAAAAAAAAAAAAAAAABhmQAAAABgAAAADAAAAAAAAAAMAAAAAAAAAAAwAAAA/9k="
+              />
+              <span class="open-post__member-count">802 members</span>
+              <div class="divider"></div>
+              <span class="open-post__member-status">Active</span>
+            </div>
+          </div>
+          <div class="open-post-column">
+            <div class="open-post__photo">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTINxkebeaIdPXajwuBEAO7O7tQDEIejveX2A&usqp=CAU"
+              />
+              <div class="open-post__heart-count">
+                <i class="fa-solid fa-heart"></i>
+                <span>326</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
     <!-- nav>ul>li*4>a -->
     <nav class="nav">
       <ul class="nav__list">
