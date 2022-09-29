@@ -11,11 +11,21 @@
   font-weight: 600;
 }
 
-.screen-header__icons span:last-child {
+.screen-header__icons span {
   margin-left: 32px;
+}
+
+.screen-header__icons {
   position: relative;
 }
 
 .screen__new {
+  background-color: tomato;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  display: flex;
+  position: absolute;
+  right: -5px;
   bottom: 20px;
 }

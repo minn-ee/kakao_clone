@@ -1,0 +1,31 @@
+.icon-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 10px;
+  margin-top: 35px;
+  padding-bottom: 35px;
+  opacity: 0.9;
+  font-size: 14px;
+}
+
+.icon-row__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon-row__icon i {
+  font-size: 30px;
+}
+
+.icon-row__icon span {
+  margin-top: 20px;
+}
+
+.icon-row2 {
+  margin-top: -2px;
+}
+
+.icon__none {
+  opacity: 0;
+}

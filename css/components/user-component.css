@@ -20,10 +20,16 @@
   font-size: 20px;
 }
 
+.user-component__subtitle-members {
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+}
+
 .user-component__subtitle {
-  margin-top: 5px;
   color: var(--grey);
   font-size: 17px;
+  margin-right: 5px;
 }
 
 .user-component__avatar--xl {
