@@ -1,0 +1,8 @@
+.chat-header {
+  position: relative;
+  left: 20px;
+}
+
+#chat-screen {
+  background-color: #abc1d1;
+}
